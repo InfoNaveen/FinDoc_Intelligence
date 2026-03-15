@@ -1,0 +1,30 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\Naveen Patil\OneDrive\Documents\HyperAPI\findoc-intelligence\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Naveen Patil\OneDrive\Documents\HyperAPI\findoc-intelligence
+plugins: anyio-4.12.1
+collecting ... collected 21 items
+
+tests/test_validation.py::TestMathValidatorInvoice::test_valid_invoice PASSED [  4%]
+tests/test_validation.py::TestMathValidatorInvoice::test_wrong_subtotal PASSED [  9%]
+tests/test_validation.py::TestMathValidatorInvoice::test_wrong_total PASSED [ 14%]
+tests/test_validation.py::TestMathValidatorInvoice::test_each_line_item_math PASSED [ 19%]
+tests/test_validation.py::TestMathValidatorInvoice::test_accuracy_score PASSED [ 23%]
+tests/test_validation.py::TestMathValidatorTax::test_valid_tax_return PASSED [ 28%]
+tests/test_validation.py::TestMathValidatorTax::test_wrong_taxable_income PASSED [ 33%]
+tests/test_validation.py::TestMathValidatorTax::test_agi_exceeds_income PASSED [ 38%]
+tests/test_validation.py::TestMathValidatorInsurance::test_valid_claim PASSED [ 42%]
+tests/test_validation.py::TestMathValidatorInsurance::test_claim_exceeds_policy PASSED [ 47%]
+tests/test_validation.py::TestHallucinationGuard::test_clean_invoice PASSED [ 52%]
+tests/test_validation.py::TestHallucinationGuard::test_low_confidence_flag PASSED [ 57%]
+tests/test_validation.py::TestHallucinationGuard::test_impossible_tax_rate PASSED [ 61%]
+tests/test_validation.py::TestHallucinationGuard::test_negative_total PASSED [ 66%]
+tests/test_validation.py::TestHallucinationGuard::test_null_with_high_confidence PASSED [ 71%]
+tests/test_validation.py::TestHallucinationGuard::test_hallucination_score_perfect PASSED [ 76%]
+tests/test_validation.py::TestHallucinationGuard::test_hallucination_score_with_flags PASSED [ 80%]
+tests/test_validation.py::TestSchemaValidator::test_valid_invoice_schema PASSED [ 85%]
+tests/test_validation.py::TestSchemaValidator::test_invalid_tax_rate PASSED [ 90%]
+tests/test_validation.py::TestSchemaValidator::test_valid_tax_schema PASSED [ 95%]
+tests/test_validation.py::TestSchemaValidator::test_unknown_doc_type PASSED [100%]
+
+============================= 21 passed in 0.29s ==============================

@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.spec
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Large binary/data files
+*.pdf
+gauntlet.db
+*.db
+*.sqlite
+
+# Sensitive keys / secrets
+.env
+*.key
+secrets.json
+
+# Temp/scratch files
+_*.py
+_*.txt
+_*.json
+!submission.json
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+evil_scan_output.txt

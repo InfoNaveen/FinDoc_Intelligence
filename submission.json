@@ -1,0 +1,1110 @@
+{
+  "team_id": "apex_null",
+  "findings": [
+    {
+      "finding_id": "F-001",
+      "category": "arithmetic_error",
+      "pages": [
+        35
+      ],
+      "document_refs": [
+        "PO-2025-00056"
+      ],
+      "description": "83x5000.00=415000.00 but shows 436523.56",
+      "reported_value": "436,523.56",
+      "correct_value": "415,000.00"
+    },
+    {
+      "finding_id": "F-002",
+      "category": "arithmetic_error",
+      "pages": [
+        186
+      ],
+      "document_refs": [
+        "PO-2025-00065"
+      ],
+      "description": "16x14000.00=224000.00 but shows 210731.36",
+      "reported_value": "210,731.36",
+      "correct_value": "224,000.00"
+    },
+    {
+      "finding_id": "F-003",
+      "category": "arithmetic_error",
+      "pages": [
+        193
+      ],
+      "document_refs": [
+        "PO-2025-00064"
+      ],
+      "description": "47x13000.00=611000.00 but shows 114467.56",
+      "reported_value": "114,467.56",
+      "correct_value": "611,000.00"
+    },
+    {
+      "finding_id": "F-004",
+      "category": "arithmetic_error",
+      "pages": [
+        291
+      ],
+      "document_refs": [
+        "PO-2025-00060"
+      ],
+      "description": "45x9000.00=405000.00 but shows 57368.70",
+      "reported_value": "57,368.70",
+      "correct_value": "405,000.00"
+    },
+    {
+      "finding_id": "F-005",
+      "category": "arithmetic_error",
+      "pages": [
+        379
+      ],
+      "document_refs": [
+        "INV-2025-00004"
+      ],
+      "description": "8.34x24036.44=200463.91 but shows 201463.91",
+      "reported_value": "201,463.91",
+      "correct_value": "200,463.91"
+    },
+    {
+      "finding_id": "F-006",
+      "category": "arithmetic_error",
+      "pages": [
+        428
+      ],
+      "document_refs": [
+        "INV-2025-00003"
+      ],
+      "description": "40.45x6000.86=242734.79 but shows 241734.79",
+      "reported_value": "241,734.79",
+      "correct_value": "242,734.79"
+    },
+    {
+      "finding_id": "F-007",
+      "category": "arithmetic_error",
+      "pages": [
+        596
+      ],
+      "document_refs": [
+        "PO-2025-00061"
+      ],
+      "description": "65x10000.00=650000.00 but shows 596609.00",
+      "reported_value": "596,609.00",
+      "correct_value": "650,000.00"
+    },
+    {
+      "finding_id": "F-008",
+      "category": "arithmetic_error",
+      "pages": [
+        608
+      ],
+      "document_refs": [
+        "PO-2025-00057"
+      ],
+      "description": "73x6000.00=438000.00 but shows 172055.16",
+      "reported_value": "172,055.16",
+      "correct_value": "438,000.00"
+    },
+    {
+      "finding_id": "F-009",
+      "category": "arithmetic_error",
+      "pages": [
+        647
+      ],
+      "document_refs": [
+        "INV-2025-00002"
+      ],
+      "description": "36.10x1106.11=39930.57 but shows 40930.57",
+      "reported_value": "40,930.57",
+      "correct_value": "39,930.57"
+    },
+    {
+      "finding_id": "F-010",
+      "category": "arithmetic_error",
+      "pages": [
+        652
+      ],
+      "document_refs": [
+        "PO-2025-00062"
+      ],
+      "description": "27x11000.00=297000.00 but shows 275072.76",
+      "reported_value": "275,072.76",
+      "correct_value": "297,000.00"
+    },
+    {
+      "finding_id": "F-011",
+      "category": "arithmetic_error",
+      "pages": [
+        662
+      ],
+      "document_refs": [
+        "PO-2025-00058"
+      ],
+      "description": "14x7000.00=98000.00 but shows 29165.08",
+      "reported_value": "29,165.08",
+      "correct_value": "98,000.00"
+    },
+    {
+      "finding_id": "F-012",
+      "category": "arithmetic_error",
+      "pages": [
+        505
+      ],
+      "document_refs": [
+        "PO-2025-00063"
+      ],
+      "description": "96x12000.00=1152000.00 but shows 1005622.08",
+      "reported_value": "1,005,622.08",
+      "correct_value": "1,152,000.00"
+    },
+    {
+      "finding_id": "F-013",
+      "category": "billing_typo",
+      "pages": [
+        5
+      ],
+      "document_refs": [
+        "INV-2025-00015"
+      ],
+      "description": "Hours 0.45 is clock-time notation (should be 0.75 decimal)",
+      "reported_value": "0.45 hrs",
+      "correct_value": "0.75 hrs"
+    },
+    {
+      "finding_id": "F-014",
+      "category": "billing_typo",
+      "pages": [
+        130
+      ],
+      "document_refs": [
+        "INV-2025-00016"
+      ],
+      "description": "Hours 1.15 is clock-time notation (should be 1.25 decimal)",
+      "reported_value": "1.15 hrs",
+      "correct_value": "1.25 hrs"
+    },
+    {
+      "finding_id": "F-015",
+      "category": "billing_typo",
+      "pages": [
+        369
+      ],
+      "document_refs": [
+        "INV-2025-00014"
+      ],
+      "description": "Hours 0.30 is clock-time notation (should be 0.50 decimal)",
+      "reported_value": "0.30 hrs",
+      "correct_value": "0.50 hrs"
+    },
+    {
+      "finding_id": "F-016",
+      "category": "billing_typo",
+      "pages": [
+        593
+      ],
+      "document_refs": [
+        "INV-2025-00013"
+      ],
+      "description": "Hours 0.15 is clock-time notation (should be 0.25 decimal)",
+      "reported_value": "0.15 hrs",
+      "correct_value": "0.25 hrs"
+    },
+    {
+      "finding_id": "F-017",
+      "category": "date_cascade",
+      "pages": [
+        57
+      ],
+      "document_refs": [
+        "INV-2025-00136"
+      ],
+      "description": "Invoice 28/03/2025 before PO 08/12/2025",
+      "reported_value": "28/03/2025",
+      "correct_value": "should be after 08/12/2025"
+    },
+    {
+      "finding_id": "F-018",
+      "category": "date_cascade",
+      "pages": [
+        70
+      ],
+      "document_refs": [
+        "INV-2025-00244"
+      ],
+      "description": "Invoice 21/04/2025 before PO 22/08/2025",
+      "reported_value": "21/04/2025",
+      "correct_value": "should be after 22/08/2025"
+    },
+    {
+      "finding_id": "F-019",
+      "category": "date_cascade",
+      "pages": [
+        85
+      ],
+      "document_refs": [
+        "INV-2025-00137"
+      ],
+      "description": "Invoice 31/01/2025 before PO 08/12/2025",
+      "reported_value": "31/01/2025",
+      "correct_value": "should be after 08/12/2025"
+    },
+    {
+      "finding_id": "F-020",
+      "category": "date_cascade",
+      "pages": [
+        114
+      ],
+      "document_refs": [
+        "INV-2025-00247"
+      ],
+      "description": "Invoice 20/03/2025 before PO 22/08/2025",
+      "reported_value": "20/03/2025",
+      "correct_value": "should be after 22/08/2025"
+    },
+    {
+      "finding_id": "F-021",
+      "category": "date_cascade",
+      "pages": [
+        261
+      ],
+      "document_refs": [
+        "INV-2025-00139"
+      ],
+      "description": "Invoice 17/03/2025 before PO 08/12/2025",
+      "reported_value": "17/03/2025",
+      "correct_value": "should be after 08/12/2025"
+    },
+    {
+      "finding_id": "F-022",
+      "category": "duplicate_line_item",
+      "pages": [
+        79
+      ],
+      "document_refs": [
+        "INV-2025-00020"
+      ],
+      "description": "Line 'Database Administration' appears 2 times",
+      "reported_value": "2",
+      "correct_value": "1"
+    },
+    {
+      "finding_id": "F-023",
+      "category": "duplicate_line_item",
+      "pages": [
+        352
+      ],
+      "document_refs": [
+        "INV-2025-00069"
+      ],
+      "description": "Line 'Data Analytics Platform Development' appears 2 times",
+      "reported_value": "2",
+      "correct_value": "1"
+    },
+    {
+      "finding_id": "F-024",
+      "category": "duplicate_line_item",
+      "pages": [
+        371
+      ],
+      "document_refs": [
+        "INV-2025-00019"
+      ],
+      "description": "Line 'Cybersecurity Audit' appears 2 times",
+      "reported_value": "2",
+      "correct_value": "1"
+    },
+    {
+      "finding_id": "F-025",
+      "category": "duplicate_line_item",
+      "pages": [
+        482
+      ],
+      "document_refs": [
+        "INV-2025-00018"
+      ],
+      "description": "Line 'Cloud Migration Consulting' appears 2 times",
+      "reported_value": "2",
+      "correct_value": "1"
+    },
+    {
+      "finding_id": "F-026",
+      "category": "fake_vendor",
+      "pages": [
+        11
+      ],
+      "document_refs": [
+        "INV-2025-00146"
+      ],
+      "description": "'KPIT Technologies Ltd' not in Vendor Master",
+      "reported_value": "KPIT Technologies Ltd",
+      "correct_value": "not in vendor master"
+    },
+    {
+      "finding_id": "F-027",
+      "category": "fake_vendor",
+      "pages": [
+        25
+      ],
+      "document_refs": [
+        "INV-2025-00075"
+      ],
+      "description": "'Hindustan Unilever Ltd' not in Vendor Master",
+      "reported_value": "Hindustan Unilever Ltd",
+      "correct_value": "not in vendor master"
+    },
+    {
+      "finding_id": "F-028",
+      "category": "fake_vendor",
+      "pages": [
+        32
+      ],
+      "document_refs": [
+        "PO-2025-00033"
+      ],
+      "description": "'Godrej Consumer Products Ltd' not in Vendor Master",
+      "reported_value": "Godrej Consumer Products Ltd",
+      "correct_value": "not in vendor master"
+    },
+    {
+      "finding_id": "F-029",
+      "category": "fake_vendor",
+      "pages": [
+        62
+      ],
+      "document_refs": [
+        "INV-2025-00011"
+      ],
+      "description": "'Happiest Minds Technologies Ltd' not in Vendor Master",
+      "reported_value": "Happiest Minds Technologies Ltd",
+      "correct_value": "not in vendor master"
+    },
+    {
+      "finding_id": "F-030",
+      "category": "fake_vendor",
+      "pages": [
+        86
+      ],
+      "document_refs": [
+        "PO-2025-00053"
+      ],
+      "description": "'Britannia Industries Ltd' not in Vendor Master",
+      "reported_value": "Britannia Industries Ltd",
+      "correct_value": "not in vendor master"
+    },
+    {
+      "finding_id": "F-031",
+      "category": "fake_vendor",
+      "pages": [
+        94
+      ],
+      "document_refs": [
+        "INV-2025-00088"
+      ],
+      "description": "'Tata Elxsi Ltd' not in Vendor Master",
+      "reported_value": "Tata Elxsi Ltd",
+      "correct_value": "not in vendor master"
+    },
+    {
+      "finding_id": "F-032",
+      "category": "fake_vendor",
+      "pages": [
+        130
+      ],
+      "document_refs": [
+        "INV-2025-00016"
+      ],
+      "description": "'ITC Ltd' not in Vendor Master",
+      "reported_value": "ITC Ltd",
+      "correct_value": "not in vendor master"
+    },
+    {
+      "finding_id": "F-033",
+      "category": "fake_vendor",
+      "pages": [
+        137
+      ],
+      "document_refs": [
+        "INV-2025-00261"
+      ],
+      "description": "'Skyline Digital Ventures Pvt Ltd' not in Vendor Master",
+      "reported_value": "Skyline Digital Ventures Pvt Ltd",
+      "correct_value": "not in vendor master"
+    },
+    {
+      "finding_id": "F-034",
+      "category": "fake_vendor",
+      "pages": [
+        138
+      ],
+      "document_refs": [
+        "PO-2025-00019"
+      ],
+      "description": "'Cyient Ltd' not in Vendor Master",
+      "reported_value": "Cyient Ltd",
+      "correct_value": "not in vendor master"
+    },
+    {
+      "finding_id": "F-035",
+      "category": "fake_vendor",
+      "pages": [
+        200
+      ],
+      "document_refs": [
+        "INV-2025-00260"
+      ],
+      "description": "'Summit Global Holdings Ltd' not in Vendor Master",
+      "reported_value": "Summit Global Holdings Ltd",
+      "correct_value": "not in vendor master"
+    },
+    {
+      "finding_id": "F-036",
+      "category": "gstin_state_mismatch",
+      "pages": [
+        76
+      ],
+      "document_refs": [
+        "INV-2025-00076"
+      ],
+      "description": "GSTIN 01=Jammu & Kashmir but address shows Telangana",
+      "reported_value": "GSTIN starts with 01 (Jammu & Kashmir)",
+      "correct_value": "Should match address state Telangana (code 01)"
+    },
+    {
+      "finding_id": "F-037",
+      "category": "gstin_state_mismatch",
+      "pages": [
+        178
+      ],
+      "document_refs": [
+        "INV-2025-00078"
+      ],
+      "description": "GSTIN 14=Manipur but address shows Delhi",
+      "reported_value": "GSTIN starts with 14 (Manipur)",
+      "correct_value": "Should match address state Delhi (code 14)"
+    },
+    {
+      "finding_id": "F-038",
+      "category": "gstin_state_mismatch",
+      "pages": [
+        264
+      ],
+      "document_refs": [
+        "INV-2025-00079"
+      ],
+      "description": "GSTIN 36=Telangana but address shows Delhi",
+      "reported_value": "GSTIN starts with 36 (Telangana)",
+      "correct_value": "Should match address state Delhi (code 36)"
+    },
+    {
+      "finding_id": "F-039",
+      "category": "gstin_state_mismatch",
+      "pages": [
+        380
+      ],
+      "document_refs": [
+        "INV-2025-00077"
+      ],
+      "description": "GSTIN 02=Himachal Pradesh but address shows Gujarat",
+      "reported_value": "GSTIN starts with 02 (Himachal Pradesh)",
+      "correct_value": "Should match address state Gujarat (code 02)"
+    },
+    {
+      "finding_id": "F-040",
+      "category": "gstin_state_mismatch",
+      "pages": [
+        456
+      ],
+      "document_refs": [
+        "INV-2025-00080"
+      ],
+      "description": "GSTIN 29=Karnataka but address shows Maharashtra",
+      "reported_value": "GSTIN starts with 29 (Karnataka)",
+      "correct_value": "Should match address state Maharashtra (code 29)"
+    },
+    {
+      "finding_id": "F-041",
+      "category": "ifsc_mismatch",
+      "pages": [
+        9
+      ],
+      "document_refs": [
+        "INV-2025-00246"
+      ],
+      "description": "Mindtree Ltd: IFSC BARB0959397 != master BARB09593974",
+      "reported_value": "BARB0959397",
+      "correct_value": "BARB09593974"
+    },
+    {
+      "finding_id": "F-042",
+      "category": "ifsc_mismatch",
+      "pages": [
+        13
+      ],
+      "document_refs": [
+        "INV-2025-00169"
+      ],
+      "description": "Bosch Ltd: IFSC SBIN0430016 != master SBIN04300162",
+      "reported_value": "SBIN0430016",
+      "correct_value": "SBIN04300162"
+    },
+    {
+      "finding_id": "F-043",
+      "category": "ifsc_mismatch",
+      "pages": [
+        20
+      ],
+      "document_refs": [
+        "INV-2025-00159"
+      ],
+      "description": "Cummins India Ltd: IFSC UTIB0601567 != master UTIB06015679",
+      "reported_value": "UTIB0601567",
+      "correct_value": "UTIB06015679"
+    },
+    {
+      "finding_id": "F-044",
+      "category": "ifsc_mismatch",
+      "pages": [
+        23
+      ],
+      "document_refs": [
+        "INV-2025-00156"
+      ],
+      "description": "Bharat Electronics Ltd: IFSC KKBK0995165 != master KKBK09951656",
+      "reported_value": "KKBK0995165",
+      "correct_value": "KKBK09951656"
+    },
+    {
+      "finding_id": "F-045",
+      "category": "ifsc_mismatch",
+      "pages": [
+        24
+      ],
+      "document_refs": [
+        "INV-2025-00053"
+      ],
+      "description": "Reliance Industries Ltd: IFSC HDFC0256353 != master HDFC02563534",
+      "reported_value": "HDFC0256353",
+      "correct_value": "HDFC02563534"
+    },
+    {
+      "finding_id": "F-046",
+      "category": "invalid_date",
+      "pages": [
+        51
+      ],
+      "document_refs": [
+        "INV-2025-00030"
+      ],
+      "description": "Invalid date 31/09/2025: day is out of range for month",
+      "reported_value": "31/09/2025",
+      "correct_value": "30/09/2025"
+    },
+    {
+      "finding_id": "F-047",
+      "category": "invalid_date",
+      "pages": [
+        77
+      ],
+      "document_refs": [
+        "INV-2025-00027"
+      ],
+      "description": "Invalid date 29/02/2025: day is out of range for month",
+      "reported_value": "29/02/2025",
+      "correct_value": "28/02/2025"
+    },
+    {
+      "finding_id": "F-048",
+      "category": "invalid_date",
+      "pages": [
+        209
+      ],
+      "document_refs": [
+        "INV-2025-00029"
+      ],
+      "description": "Invalid date 32/07/2025: Day 32 > 31",
+      "reported_value": "32/07/2025",
+      "correct_value": "31/07/2025"
+    },
+    {
+      "finding_id": "F-049",
+      "category": "invalid_date",
+      "pages": [
+        226
+      ],
+      "document_refs": [
+        "INV-2025-00024"
+      ],
+      "description": "Invalid date 31/06/2025: day is out of range for month",
+      "reported_value": "31/06/2025",
+      "correct_value": "30/06/2025"
+    },
+    {
+      "finding_id": "F-050",
+      "category": "invalid_date",
+      "pages": [
+        231
+      ],
+      "document_refs": [
+        "INV-2025-00025"
+      ],
+      "description": "Invalid date 31/09/2025: day is out of range for month",
+      "reported_value": "31/09/2025",
+      "correct_value": "30/09/2025"
+    },
+    {
+      "finding_id": "F-051",
+      "category": "invalid_date",
+      "pages": [
+        266
+      ],
+      "document_refs": [
+        "INV-2025-00021"
+      ],
+      "description": "Invalid date 31/02/2025: day is out of range for month",
+      "reported_value": "31/02/2025",
+      "correct_value": "28/02/2025"
+    },
+    {
+      "finding_id": "F-052",
+      "category": "invalid_date",
+      "pages": [
+        378
+      ],
+      "document_refs": [
+        "INV-2025-00028"
+      ],
+      "description": "Invalid date 00/05/2025: Day 0 invalid",
+      "reported_value": "00/05/2025",
+      "correct_value": "00/05/2025"
+    },
+    {
+      "finding_id": "F-053",
+      "category": "invalid_date",
+      "pages": [
+        414
+      ],
+      "document_refs": [
+        "INV-2025-00022"
+      ],
+      "description": "Invalid date 30/02/2025: day is out of range for month",
+      "reported_value": "30/02/2025",
+      "correct_value": "28/02/2025"
+    },
+    {
+      "finding_id": "F-054",
+      "category": "invalid_date",
+      "pages": [
+        436
+      ],
+      "document_refs": [
+        "INV-2025-00023"
+      ],
+      "description": "Invalid date 31/04/2025: day is out of range for month",
+      "reported_value": "31/04/2025",
+      "correct_value": "30/04/2025"
+    },
+    {
+      "finding_id": "F-055",
+      "category": "invalid_date",
+      "pages": [
+        552
+      ],
+      "document_refs": [
+        "INV-2025-00026"
+      ],
+      "description": "Invalid date 31/11/2025: day is out of range for month",
+      "reported_value": "31/11/2025",
+      "correct_value": "30/11/2025"
+    },
+    {
+      "finding_id": "F-056",
+      "category": "phantom_po_reference",
+      "pages": [
+        7
+      ],
+      "document_refs": [
+        "INV-2025-00097"
+      ],
+      "description": "Invoice cites PO-2025-00024 which does not exist",
+      "reported_value": "PO-2025-00024",
+      "correct_value": "PO does not exist"
+    },
+    {
+      "finding_id": "F-057",
+      "category": "phantom_po_reference",
+      "pages": [
+        11
+      ],
+      "document_refs": [
+        "INV-2025-00146"
+      ],
+      "description": "Invoice cites PO-2025-00034 which does not exist",
+      "reported_value": "PO-2025-00034",
+      "correct_value": "PO does not exist"
+    },
+    {
+      "finding_id": "F-058",
+      "category": "phantom_po_reference",
+      "pages": [
+        13
+      ],
+      "document_refs": [
+        "INV-2025-00169"
+      ],
+      "description": "Invoice cites PO-2025-00040 which does not exist",
+      "reported_value": "PO-2025-00040",
+      "correct_value": "PO does not exist"
+    },
+    {
+      "finding_id": "F-059",
+      "category": "phantom_po_reference",
+      "pages": [
+        16
+      ],
+      "document_refs": [
+        "INV-2025-00118"
+      ],
+      "description": "Invoice cites PO-2025-00028 which does not exist",
+      "reported_value": "PO-2025-00028",
+      "correct_value": "PO does not exist"
+    },
+    {
+      "finding_id": "F-060",
+      "category": "phantom_po_reference",
+      "pages": [
+        23
+      ],
+      "document_refs": [
+        "INV-2025-00156"
+      ],
+      "description": "Invoice cites PO-2025-00036 which does not exist",
+      "reported_value": "PO-2025-00036",
+      "correct_value": "PO does not exist"
+    },
+    {
+      "finding_id": "F-061",
+      "category": "price_escalation",
+      "pages": [
+        191,
+        220
+      ],
+      "document_refs": [
+        "PO-2025-00021",
+        "INV-2025-00084"
+      ],
+      "description": "PO rate 3224.49 for 'Printing & Stationery Sup' but invoice charges 3577.31",
+      "reported_value": "3,577.31",
+      "correct_value": "3,224.49"
+    },
+    {
+      "finding_id": "F-062",
+      "category": "price_escalation",
+      "pages": [
+        444,
+        334
+      ],
+      "document_refs": [
+        "PO-2025-00002",
+        "INV-2025-00042"
+      ],
+      "description": "PO rate 1804.33 for 'Courier & Logistics Servi' but invoice charges 2004.33",
+      "reported_value": "2,004.33",
+      "correct_value": "1,804.33"
+    },
+    {
+      "finding_id": "F-063",
+      "category": "price_escalation",
+      "pages": [
+        505,
+        9
+      ],
+      "document_refs": [
+        "PO-2025-00063",
+        "INV-2025-00246"
+      ],
+      "description": "PO rate 11896.98 for 'Software License - Enterp' but invoice charges 16500.00",
+      "reported_value": "16,500.00",
+      "correct_value": "11,896.98"
+    },
+    {
+      "finding_id": "F-064",
+      "category": "price_escalation",
+      "pages": [
+        609,
+        92
+      ],
+      "document_refs": [
+        "PO-2025-00059",
+        "INV-2025-00231"
+      ],
+      "description": "PO rate 8000.00 for 'Data Analytics Platform D' but invoice charges 12000.00",
+      "reported_value": "12,000.00",
+      "correct_value": "8,000.00"
+    },
+    {
+      "category": "price_escalation",
+      "pages": [
+        20,
+        145
+      ],
+      "document_refs": [
+        "INV-2025-00159",
+        "PO-2025-00037"
+      ],
+      "reported_value": "19,744.53",
+      "correct_value": "17,712.27",
+      "description": "Rate for 'Annual Maintenance Contract - ' escalated from PO 17712.27 to 19744.53",
+      "finding_id": "F-065"
+    },
+    {
+      "category": "price_escalation",
+      "pages": [
+        457,
+        294
+      ],
+      "document_refs": [
+        "INV-2025-00045",
+        "PO-2025-00005"
+      ],
+      "reported_value": "11,967.68",
+      "correct_value": "994.43",
+      "description": "Rate for 'Software License - Enterprise ' escalated from PO 994.43 to 11967.68",
+      "finding_id": "F-066"
+    },
+    {
+      "finding_id": "F-067",
+      "category": "quantity_accumulation",
+      "pages": [
+        69,
+        261,
+        85,
+        278
+      ],
+      "document_refs": [
+        "PO-2025-00032",
+        "INV-2025-00140",
+        "INV-2025-00139",
+        "INV-2025-00138",
+        "INV-2025-00137"
+      ],
+      "description": "PO allows 210 units of 'Catering Services - Corpo' but 252.00 invoiced across 5 invoices",
+      "reported_value": "252.00",
+      "correct_value": "210"
+    },
+    {
+      "finding_id": "F-068",
+      "category": "quantity_accumulation",
+      "pages": [
+        145,
+        361,
+        243,
+        20
+      ],
+      "document_refs": [
+        "PO-2025-00037",
+        "INV-2025-00159",
+        "INV-2025-00161",
+        "INV-2025-00160"
+      ],
+      "description": "PO allows 260 units of 'Business Process Reengine' but 312.00 invoiced across 3 invoices",
+      "reported_value": "312.00",
+      "correct_value": "260"
+    },
+    {
+      "finding_id": "F-069",
+      "category": "quantity_accumulation",
+      "pages": [
+        191,
+        516,
+        392,
+        498
+      ],
+      "document_refs": [
+        "PO-2025-00021",
+        "INV-2025-00083",
+        "INV-2025-00085",
+        "INV-2025-00081",
+        "INV-2025-00084"
+      ],
+      "description": "PO allows 100 units of 'Quality Assurance Testing' but 120.00 invoiced across 5 invoices",
+      "reported_value": "120.00",
+      "correct_value": "100"
+    },
+    {
+      "finding_id": "F-070",
+      "category": "quantity_accumulation",
+      "pages": [
+        489,
+        577,
+        522,
+        678
+      ],
+      "document_refs": [
+        "PO-2025-00052",
+        "INV-2025-00204",
+        "INV-2025-00205",
+        "INV-2025-00206"
+      ],
+      "description": "PO allows 410 units of 'Project Management Consul' but 492.00 invoiced across 3 invoices",
+      "reported_value": "492.00",
+      "correct_value": "410"
+    },
+    {
+      "finding_id": "F-071",
+      "category": "quantity_accumulation",
+      "pages": [
+        505,
+        9,
+        114,
+        670
+      ],
+      "document_refs": [
+        "PO-2025-00063",
+        "INV-2025-00244",
+        "INV-2025-00247",
+        "INV-2025-00245",
+        "INV-2025-00246"
+      ],
+      "description": "PO allows 68 units of 'Software License - Enterp' but 656.00 invoiced across 4 invoices",
+      "reported_value": "656.00",
+      "correct_value": "68"
+    },
+    {
+      "finding_id": "F-072",
+      "category": "quantity_accumulation",
+      "pages": [
+        609,
+        529,
+        92,
+        445
+      ],
+      "document_refs": [
+        "PO-2025-00059",
+        "INV-2025-00228",
+        "INV-2025-00230",
+        "INV-2025-00231",
+        "INV-2025-00229"
+      ],
+      "description": "PO allows 66 units of 'Data Analytics Platform D' but 264.00 invoiced across 4 invoices",
+      "reported_value": "264.00",
+      "correct_value": "66"
+    },
+    {
+      "finding_id": "F-073",
+      "category": "vendor_name_typo",
+      "pages": [
+        158
+      ],
+      "document_refs": [
+        "INV-2025-00061"
+      ],
+      "description": "'Zensar Technlogies Ltd' is typo of 'Zensar Technologies Ltd' (edit dist=1)",
+      "reported_value": "Zensar Technlogies Ltd",
+      "correct_value": "Zensar Technologies Ltd"
+    },
+    {
+      "finding_id": "F-074",
+      "category": "vendor_name_typo",
+      "pages": [
+        208
+      ],
+      "document_refs": [
+        "INV-2025-00057"
+      ],
+      "description": "'Tech Mahinrda Ltd' is typo of 'Tech Mahindra Ltd' (edit dist=2)",
+      "reported_value": "Tech Mahinrda Ltd",
+      "correct_value": "Tech Mahindra Ltd"
+    },
+    {
+      "finding_id": "F-075",
+      "category": "vendor_name_typo",
+      "pages": [
+        234
+      ],
+      "document_refs": [
+        "INV-2025-00056"
+      ],
+      "description": "'Larsen & Tourbo Ltd' is typo of 'Larsen & Toubro Ltd' (edit dist=2)",
+      "reported_value": "Larsen & Tourbo Ltd",
+      "correct_value": "Larsen & Toubro Ltd"
+    },
+    {
+      "finding_id": "F-076",
+      "category": "vendor_name_typo",
+      "pages": [
+        250
+      ],
+      "document_refs": [
+        "INV-2025-00059"
+      ],
+      "description": "'Mphaises Ltd' is typo of 'Mphasis Ltd' (edit dist=2)",
+      "reported_value": "Mphaises Ltd",
+      "correct_value": "Mphasis Ltd"
+    },
+    {
+      "finding_id": "F-077",
+      "category": "vendor_name_typo",
+      "pages": [
+        349
+      ],
+      "document_refs": [
+        "INV-2025-00063"
+      ],
+      "description": "'Infossys Ltd' is typo of 'Infosys Ltd' (edit dist=1)",
+      "reported_value": "Infossys Ltd",
+      "correct_value": "Infosys Ltd"
+    },
+    {
+      "finding_id": "F-078",
+      "category": "vendor_name_typo",
+      "pages": [
+        396
+      ],
+      "document_refs": [
+        "INV-2025-00064"
+      ],
+      "description": "'HCL Technolgoies Ltd' is typo of 'HCL Technologies Ltd' (edit dist=2)",
+      "reported_value": "HCL Technolgoies Ltd",
+      "correct_value": "HCL Technologies Ltd"
+    },
+    {
+      "finding_id": "F-079",
+      "category": "vendor_name_typo",
+      "pages": [
+        453
+      ],
+      "document_refs": [
+        "INV-2025-00060"
+      ],
+      "description": "'Coforgr Ltd' is typo of 'Coforge Ltd' (edit dist=1)",
+      "reported_value": "Coforgr Ltd",
+      "correct_value": "Coforge Ltd"
+    },
+    {
+      "finding_id": "F-080",
+      "category": "vendor_name_typo",
+      "pages": [
+        506
+      ],
+      "document_refs": [
+        "INV-2025-00062"
+      ],
+      "description": "'Wripo Ltd' is typo of 'Wipro Ltd' (edit dist=2)",
+      "reported_value": "Wripo Ltd",
+      "correct_value": "Wipro Ltd"
+    },
+    {
+      "finding_id": "F-081",
+      "category": "vendor_name_typo",
+      "pages": [
+        601
+      ],
+      "document_refs": [
+        "INV-2025-00058"
+      ],
+      "description": "'Persistant Systems Ltd' is typo of 'Persistent Systems Ltd' (edit dist=1)",
+      "reported_value": "Persistant Systems Ltd",
+      "correct_value": "Persistent Systems Ltd"
+    }
+  ]
+}
