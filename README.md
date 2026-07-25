@@ -1,7 +1,7 @@
 # FinDoc Intelligence
 ### AI-Powered Financial Document Forensics Pipeline
 
-**Team APEX NULL** · Naveen Patil · HyperBots HyperAPI Hackathon 2025
+**Team APEX NULL** · Naveen Patil · HyperBots HyperAPI Hackathon 2026
 `Track 1: Financial Gauntlet` · `Track 2: TYOD` · `Both simultaneously`
 
 ---
